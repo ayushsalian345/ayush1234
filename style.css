@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+.header {
+    background: #4caf50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+.logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero, .resume, .bio {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.hero-image, .profile-pic, .work-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+.profile-pic {
+    border-radius: 50%;
+    border: 5px solid #4caf50;
+}
+.footer {
+    background: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
